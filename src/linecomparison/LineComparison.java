@@ -14,14 +14,23 @@ public class LineComparison {
         int y2=sc.nextInt();
         int distance=(((x2-x1)*(x2-x1))+(y2-y1)*(y2-y1));
         double d=Math.sqrt(distance);
-        System.out.println("distance is"+d);
-        if(x1==x2 && y1==y2)
+        System.out.println("Enter The X3 and X4");
+        int x3=sc.nextInt();
+        int x4=sc.nextInt();
+        System.out.println("Enter The Y3 and 4");
+        int y3=sc.nextInt();
+        int y4=sc.nextInt();
+        int distance2=(((x4-x3)*(x4-x3))+(y4-y3)*(y4-y3));
+        double d2=Math.sqrt(distance2);
+        System.out.println("First distance is"+d);
+        System.out.println("First distance is"+d2);
+        if(d==d2)
         {
-            System.out.println("Both Lines Are same");
+            System.out.println("Distance Are same");
         }
         else
         {
-            System.out.println("Not same");
+            System.out.println("Distance are not same");
         }
     }
 }
