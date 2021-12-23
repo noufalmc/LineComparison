@@ -15,5 +15,13 @@ public class LineComparison {
         int distance=(((x2-x1)*(x2-x1))+(y2-y1)*(y2-y1));
         double d=Math.sqrt(distance);
         System.out.println("distance is"+d);
+        if(x1==x2 && y1==y2)
+        {
+            System.out.println("Both Lines Are same");
+        }
+        else
+        {
+            System.out.println("Not same");
+        }
     }
 }
