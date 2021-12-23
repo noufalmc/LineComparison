@@ -12,5 +12,7 @@ public class LineComparison {
         System.out.println("Enter the Y1 and Y2");
         int y1=sc.nextInt();
         int y2=sc.nextInt();
+        int distance=(((x2-x1)*(x2-x1))-(y2-y1)*(y2-y1));
+        System.out.println("distance is"+distance);
     }
 }
